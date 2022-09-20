@@ -3,11 +3,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock paper Scissors</title>
-    <script src="index.js"></script>
-
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <h1> FINGER WARS</h1>
+    <div class="playing">
+        <div class="wrapper">
+            <div class="buttonClick">
+                <button class="rock"  type="button" ><h3>ROCK</h3></button >
+                
+                <button class="paper" type="button"><h3>PAPER</h3></button>
+    
+                <button class="scissors" type="button"><h3>SCISSORS</h3></button>
+            </div>   
+        </div>
+        <div class="fullResult">
+            <div >player score = <span class="playerScore">0</span></div>
+            <div > computer score = <span class="computerScore">0</span></div>
+            <div > result = <span class="result"></span></div>
+            <div class="winner" type="text"></div>
+        </div>
+        <div class="pickes">
+            <div> player pick = <span class="playerPick"></span></div>
+            <div> computer pick = <span class="computerPick"></span></div>
+        </div>
+        <div class="resetClick">
+            <button class="reset"> reset</button>
+        </div>
+        
+    </div>
     
 </body>
+<script src="index.js" defer></script>
 </html>
